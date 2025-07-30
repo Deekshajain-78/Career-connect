@@ -35,6 +35,7 @@ public class HomeController {
     @RequestMapping("/dashboard2")
     public String adminDashboard2( Model model){
 
+
             model.addAttribute("totalStudents", studentRepository.count());
             model.addAttribute("totalRecruiters", recruiterRepository.count());
             model.addAttribute("totalJobs", jobRepository.count());
