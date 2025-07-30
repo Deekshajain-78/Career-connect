@@ -44,7 +44,6 @@ public class HomeController {
                 model.addAttribute("recentJobs", recentJobs);
             }
 
-
             if(recentUsers!= null){
                 model.addAttribute("recentUsers", recentUsers);
             }
